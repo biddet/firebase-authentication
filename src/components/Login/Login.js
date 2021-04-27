@@ -110,9 +110,11 @@ const Login = () => {
         <div className="container">
         <div className="row">
         <div className="col-md-6  my-2" style={{margin: "0 auto"}}>
+            <div className="text-center">
             {
                 user.isSignIn ? <button onClick={handleGoogleSignOut}>Sign Out</button> : <button onClick={handleGoogleSignIn}>Sign In with google</button>
             }
+            </div>
             
             {
                 user.isSignIn && <div>
@@ -122,9 +124,6 @@ const Login = () => {
             </div>
             }
             <br/><br/>
-            <p>name: {user.name}</p>
-            <p>email: {user.email}</p>
-            <p>password: {user.password}</p>
             <br/><br/>
             {
                 newUser ? <h1 className="text-center text-primary">Sign Up form</h1> : <h1 className="text-center text-primary">Sign In form</h1>
