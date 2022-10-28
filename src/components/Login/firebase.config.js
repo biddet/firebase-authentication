@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCw99si6ZIabU-gWi1eMIwU4iwnLWLGyas",
-    authDomain: "fir-authentication-mithu.firebaseapp.com",
-    projectId: "fir-authentication-mithu",
-    storageBucket: "fir-authentication-mithu.appspot.com",
-    messagingSenderId: "412436450816",
-    appId: "1:412436450816:web:1420e41c466ba35e7b12e5"
+    apiKey: "AIzaSyBvGNl7SJolibbLp1hkY2dZWLcyt2SAAuo",
+    authDomain: "vuetifyadmin.firebaseapp.com",
+    projectId: "vuetifyadmin",
+    storageBucket: "vuetifyadmin.appspot.com",
+    messagingSenderId: "613782349047",
+    appId: "1:613782349047:web:1722734c9cfb6b70cc1ff2"
   };
 
   export default firebaseConfig;
